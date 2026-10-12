@@ -12,6 +12,6 @@ public class PrintNumberes {
     }
 
     public static void main(String[] args) {
-        print(10);
+        print(100);
     }
 }
