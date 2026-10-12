@@ -1,19 +1,24 @@
 package recursion.basicprograms;
 
 public class LearningMethods {
-    public static int add(int a, int b) {
-        return a + b;
+    static void method1() {
+        int x1 = 1;
+        method2();
+        System.out.println(x1);
     }
 
-   public static int mul(int a, int b) {
-        return a * b;
+    static void method2() {
+        int x2 = 2;
+        method3();
+        System.out.println(x2);
+    }
+
+    static void method3() {
+        int x3 = 3;
+        System.out.println(x3);
     }
 
     public static void main(String[] args) {
-        int a = 20;
-        int b = 30;
-
-        System.out.println(add(a, b));
-        System.out.println(mul(a, b));
+        method1();
     }
 }
