@@ -23,4 +23,5 @@ public class FindSubSequence {
         String s = "abc";
         System.out.println(getSSQ(s));
     }
+
 }
