@@ -2,6 +2,8 @@ package BasicProblems;
 
 public class BasicLinkedList {
      public static void main(String[] args){
+
+
          Node a = new Node(5);
          Node b = new Node(6);
          Node c = new Node(7);
@@ -32,9 +34,40 @@ public class BasicLinkedList {
 
          System.out.println("Trick 02 (in one go) : ");
 
-         System.out.print(a.data + " -- > " +a.next.data + " --> " + a.next.next.data + " --> "
+         System.out.println(a.data + " -- > " +a.next.data + " --> " + a.next.next.data + " --> "
                  + a.next.next.next.data + " --> " + a.next.next.next.next.data + " --> " + e.next);
 
+
+         System.out.println("Trick 03 (with help of for loop):");
+         Node temp1=a;
+         for(int i=0;i<5&&temp1!=null;i++){
+             System.out.print(temp1.data+" --> ");
+             temp1=temp1.next;
+         }
+
+         System.out.println();
+         System.out.println("Trick 04 (with help of while loop):");
+         Node temp2=a;
+         while(temp2!=null){
+             System.out.print(temp2.data+" --> ");
+             temp2=temp2.next;
+
+         }
+
+         System.out.println();
+         System.out.println("Trick 05 (using method):");
+         display(a);
+
+
+         System.out.println();
+         System.out.println("Trick 06 (using recursion)");
      }
+
+    public static void display(Node head){
+        while(head !=null){
+            System.out.print(head.data+" --> ");
+            head=head.next;
+        }
+    }
 }
 
