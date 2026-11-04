@@ -6,7 +6,6 @@ public class LearningLinkedList {
 
     static void insertAtEnd(int value){
         Node temp=new Node(value);
-
         if(head==null){
             head=temp;
             tail=temp;
@@ -19,7 +18,6 @@ public class LearningLinkedList {
 
     static void insertAtStart(int value){
         Node temp=new Node(value);
-
         if(head==null){
             head=temp;
             tail=temp;
@@ -32,7 +30,6 @@ public class LearningLinkedList {
 
     static void display() {
         Node temp = head;
-
         while (temp != null) {
             System.out.print(temp.data + " --> ");
             temp = temp.next;
@@ -43,7 +40,6 @@ public class LearningLinkedList {
     public static int countNodes(){
         int count=0;
         Node temp=head;
-
         while(temp!=null){
             count++;
             temp=temp.next;
@@ -62,6 +58,16 @@ public class LearningLinkedList {
         return false;
     }
 
+    public static Node findMid(){
+        Node slow=head;
+        Node fast=head;
+        while(fast!=null&&fast.next!=null){
+            slow=slow.next;
+            fast=fast.next.next;
+        }
+        return slow;
+    }
+
     public static void main(String[]args){
         insertAtEnd(10);
         insertAtStart(5);
@@ -74,5 +80,9 @@ public class LearningLinkedList {
 
         System.out.println(search(5));
         System.out.println(search(15));
+
+        Node mid = findMid();
+        System.out.println("Middle index : " + mid.data);
+
     }
 }
