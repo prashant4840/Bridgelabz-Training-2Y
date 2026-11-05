@@ -68,6 +68,40 @@ public class LearningLinkedList {
         return slow;
     }
 
+    public static Node deleteFirst(Node head) {
+        if (head == null) {
+            return null;
+        }
+        head = head.next;
+        return head;
+    }
+
+    public static void deleteLast() {
+        if (head == null || head.next == null) {
+            return;
+        }
+        Node temp = head;
+        while (temp.next.next != null) {
+            temp = temp.next;
+        }
+        temp.next = null;
+    }
+
+    public static Node reverse(Node head) {
+        Node prev = null;
+        Node curr = head;
+
+        while (curr != null) {
+            Node next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        return prev;
+    }
+
+
+
     public static void main(String[]args){
         insertAtEnd(10);
         insertAtStart(5);
@@ -83,6 +117,18 @@ public class LearningLinkedList {
 
         Node mid = findMid();
         System.out.println("Middle index : " + mid.data);
+
+        head = reverse(head);
+        System.out.print("Reverse LinkedList : ");
+        display();
+
+        System.out.println("After deleting first node:");
+        head = deleteFirst(head);
+        display();
+
+        System.out.println("After deleting last node:");
+        deleteLast();
+        display();
 
     }
 }
