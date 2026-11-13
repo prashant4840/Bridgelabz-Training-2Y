@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package BasicProblems;
+=======
+package Assignment;
+>>>>>>> 257d5da ([Prashant] linkedlist-assignment)
 
 class BookNode {
     String bookTitle;
@@ -167,4 +171,8 @@ public class LibraryManagementSystem {
         System.out.println("\nAfter Removing Book 2:");
         displayForward();
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 257d5da ([Prashant] linkedlist-assignment)

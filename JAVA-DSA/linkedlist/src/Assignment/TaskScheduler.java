@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package BasicProblems;
+=======
+package Assignment;
+>>>>>>> 257d5da ([Prashant] linkedlist-assignment)
 
 class TaskNode {
     int taskId;
@@ -153,4 +157,8 @@ public class TaskScheduler {
         System.out.println("\nAfter Removing Task 2:");
         display();
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 257d5da ([Prashant] linkedlist-assignment)

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package BasicProblems;
+=======
+package Assignment;
+>>>>>>> 257d5da ([Prashant] linkedlist-assignment)
 
 class MovieNode {
     String title;
@@ -156,4 +160,8 @@ public class MovieManagementSystem {
         System.out.println("\nAfter Removing Interstellar:");
         displayForward();
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 257d5da ([Prashant] linkedlist-assignment)

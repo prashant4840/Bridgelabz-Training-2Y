@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package BasicProblems;
+=======
+package Assignment;
+>>>>>>> 257d5da ([Prashant] linkedlist-assignment)
 
 class ItemNode {
     String itemName;
@@ -154,4 +158,8 @@ public class InventoryManagementSystem {
         System.out.println("\nAfter Removing Keyboard:");
         display();
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 257d5da ([Prashant] linkedlist-assignment)
