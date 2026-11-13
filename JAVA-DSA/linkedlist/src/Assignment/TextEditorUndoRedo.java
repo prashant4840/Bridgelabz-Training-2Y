@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-package BasicProblems;
-=======
 package Assignment;
->>>>>>> 257d5da ([Prashant] linkedlist-assignment)
 
 class StateNode {
     String textContent;
@@ -93,8 +89,4 @@ public class TextEditorUndoRedo {
         addState("Hello World Java");
         displayCurrentState();
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 257d5da ([Prashant] linkedlist-assignment)

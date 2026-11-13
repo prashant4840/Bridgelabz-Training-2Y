@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-package BasicProblems;
-=======
 package Assignment;
->>>>>>> 257d5da ([Prashant] linkedlist-assignment)
 
 class TicketNode {
     int ticketId;
@@ -134,8 +130,4 @@ public class TicketReservationSystem {
         System.out.println("\nAfter Removing Ticket 1002:");
         display();
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 257d5da ([Prashant] linkedlist-assignment)

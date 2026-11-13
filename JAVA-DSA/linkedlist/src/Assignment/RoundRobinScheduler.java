@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-package BasicProblems;
-=======
 package Assignment;
->>>>>>> 257d5da ([Prashant] linkedlist-assignment)
 
 class ProcessNode {
     int processId;
@@ -130,8 +126,4 @@ public class RoundRobinScheduler {
 
         simulate(3);
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 257d5da ([Prashant] linkedlist-assignment)

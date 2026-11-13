@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-package BasicProblems;
-=======
 package Assignment;
->>>>>>> 257d5da ([Prashant] linkedlist-assignment)
 
 class StudentNode {
     int rollNumber;
@@ -137,8 +133,4 @@ public class StudentRecordManagement {
         System.out.println("\nAfter Deleting Roll 100:");
         display();
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 257d5da ([Prashant] linkedlist-assignment)

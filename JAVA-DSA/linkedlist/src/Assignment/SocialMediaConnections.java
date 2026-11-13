@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-package BasicProblems;
-=======
 package Assignment;
->>>>>>> 257d5da ([Prashant] linkedlist-assignment)
 
 import java.util.ArrayList;
 import java.util.List;
@@ -135,8 +131,4 @@ public class SocialMediaConnections {
         countFriendsAll();
         findMutualFriends(1, 4);
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 257d5da ([Prashant] linkedlist-assignment)
