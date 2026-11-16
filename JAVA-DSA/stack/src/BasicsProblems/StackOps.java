@@ -15,13 +15,4 @@ public class StackOps {
             System.out.print(arr[i] + " ");
         }
     }
-
-
-    public int pop(){
-        int data;
-        top--;
-        data=arr[top];
-        arr[top]=0;
-        return data;
-    }
 }
