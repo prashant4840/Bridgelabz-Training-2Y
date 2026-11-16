@@ -1,6 +1,6 @@
 package BasicsProblems;
 
-public class StackBasics {
+public class Main {
     public static void main(String[] args) {
         StackOps st=new StackOps();
         st.push(10);

@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="171da5aa-2f69-4c73-b015-9236f6fc7c24" name="Changes" comment="" />
+    <list default="true" id="171da5aa-2f69-4c73-b015-9236f6fc7c24" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/stack/src/BasicsProblems/StackBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stack/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/linkedlist.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/src/BasicProblems/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/src/BasicProblems/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/src/BasicProblems/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/src/BasicProblems/.idea/vcs.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,11 +68,12 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "05-stack",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/prashantsharma/New-Folder/Bridgelabz-Training-2Y/JAVA-DSA"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LinkedListCycle">
+  <component name="RunManager">
     <configuration name="LinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BasicProblems.LinkedListCycle" />
       <module name="JAVA-DSA" />
