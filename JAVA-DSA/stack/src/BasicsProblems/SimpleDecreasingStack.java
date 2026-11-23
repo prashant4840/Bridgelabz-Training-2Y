@@ -7,14 +7,13 @@ public class SimpleDecreasingStack {
         Stack<Integer> stack = new Stack<>();
 
         for (int num : nums) {
-            // Remove smaller numbers so the stack stays in decreasing order
             while (!stack.isEmpty() && stack.peek() < num) {
                 stack.pop();
             }
             stack.push(num);
         }
 
-        System.out.println("Decreasing Stack: " + stack); // Output: [6]
-        System.out.println("Minimum element: " + stack.peek()); // Output: 6
+        System.out.println("Decreasing Stack: " + stack);
+        System.out.println("Minimum element: " + stack.peek());
     }
 }
